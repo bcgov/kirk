@@ -31,8 +31,8 @@ create a parameter file by coping the code snippet below and populate with
 the parameters you want.
 
 ```
-app_name: kirk
-env: dev
+app_name: <app name>
+env: <dev or prod env>
 
 # Parameters used to create and connect to the postgres database that
 # sits behind kirk
@@ -48,6 +48,9 @@ kirk_pgdb_params:
 
 # Secret name that contains the database parameters described above
 kirk_pgdb_secret_name: <name of the secret for the database secrets>
+
+# License plate for openshift namespaces
+license_plate: <license plate>
         
 ```
 
