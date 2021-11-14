@@ -3,7 +3,7 @@ FROM python:3.8-alpine
 ENV LANG C.UTF-8
 
 WORKDIR /kirk
-ADD ./src/backend/app_kirk_rest /kirk/
+ADD ./src/backend /kirk/
 ADD requirements.txt /kirk/
 RUN ls /kirk
 
