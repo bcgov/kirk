@@ -4,7 +4,7 @@ ENV LANG C.UTF-8
 
 WORKDIR /kirk
 ADD ./src/backend /kirk/
-ADD requirements.txt /kirk/
+ADD ./src/backend/requirements.txt /kirk/
 RUN ls /kirk
 
 # apk update
