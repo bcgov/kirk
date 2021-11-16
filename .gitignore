@@ -3,7 +3,7 @@ ve_kirk
 .project
 .pydevproject
 src/backend/staticfiles/*
-src/backend/db.sqllite3
+src/backend/db.sqlite3
 src/frontend/node_modules
 __pycache__
 ve
