@@ -25,7 +25,7 @@
 
 2. Log into a specific project `oc project <project_namespace>`.
 
-3. Prepare deployment configuration files, [see this section](####deployment-configuration-files).
+3. Prepare deployment configuration files, [see this section](#deployment-configuration-files).
 
 4. Run the following helm chart deployment - kirk-install.
 ```
@@ -34,7 +34,7 @@ helm install kirk-install kirk-helm \
      --set kirk_run_migration=true
 ```
 
-5. Post install steps, [see this section](####data-migrations).
+5. Post install steps, [see this section](#data-migrations).
 
 6. Run the followiing helm chart deployment - kirk-backup.
 ```
