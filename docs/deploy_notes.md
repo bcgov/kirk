@@ -27,16 +27,18 @@
 
 3. Prepare deployment configuration files, [see this section](#deployment-configuration-files).
 
-4. Run the following helm chart deployment - kirk-install.
+4. Prepare container images in tools namespace, [see this section](#build-container-images).
+
+5. Run the following helm chart deployment - kirk-install in dev, test or prod.
 ```
 helm install kirk-install kirk-helm \
      -f <path_to_kirk_install_helm_chart_config_yaml> \
      --set kirk_run_migration=true
 ```
 
-5. Post install steps, [see this section](#data-migrations).
+6. Post install steps, [see this section](#data-migrations).
 
-6. Run the followiing helm chart deployment - kirk-backup.
+7. Run the followiing helm chart deployment - kirk-backup in dev, test or prod.in dev, test or prod.
 ```
 helm repo add bcgov http://bcgov.github.io/helm-charts
 
